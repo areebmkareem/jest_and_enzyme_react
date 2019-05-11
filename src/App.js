@@ -16,7 +16,7 @@ class App extends React.Component {
         <div data-test="yo">The count is {this.state.counter}</div>
 
         <div>
-          <button data-test="btn" onClick={() => this.setState(prev => ({ counter: prev.counter + 1 }))}>
+          <button className="btn btn-primary" data-test="btn" onClick={() => this.setState(prev => ({ counter: prev.counter + 1 }))}>
             Increment Counter
           </button>
         </div>
